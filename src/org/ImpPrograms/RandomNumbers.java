@@ -1,6 +1,8 @@
 package org.ImpPrograms;
+
 //. How to Generate random number in javaProgram
 import java.util.*;
+
 class RandomNumbers {
 	public static void main(String[] args) {
 		int c;

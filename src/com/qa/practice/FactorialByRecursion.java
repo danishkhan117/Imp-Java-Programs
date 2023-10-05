@@ -1,4 +1,4 @@
-package org.ImpPrograms;
+package com.qa.practice;
 
 public class FactorialByRecursion {
 
@@ -6,7 +6,7 @@ public class FactorialByRecursion {
 		if (n == 1)
 			return 1;
 		else
-			return (n * factorial(n - 1));//5*f4x 
+			return (n * factorial(n - 1));// 5*f4x
 	}
 
 	public static void main(String[] args) {

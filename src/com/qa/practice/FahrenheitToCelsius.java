@@ -1,4 +1,4 @@
-package org.ImpPrograms;
+package com.qa.practice;
 import java.util.*;
 
 public class FahrenheitToCelsius {
