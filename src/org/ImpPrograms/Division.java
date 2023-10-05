@@ -21,7 +21,7 @@ public class Division {
 		catch (ArithmeticException e) {
 			System.out.println("Exception caught: Division by zero.");
 		}
-		
+
 		System.out.println("Out of try catch....");
 	}
 

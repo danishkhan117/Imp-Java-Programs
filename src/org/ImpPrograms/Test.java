@@ -1,15 +1,16 @@
 package org.ImpPrograms;
 
-import java.util.Random;
-
 public class Test {
 	public static void main(String[] args) {
-		int c;
-		Random t = new Random();
-		// random integers in [0, 100]
-		for (c = 1; c <= 10; c++) {
-			System.out.println(t.nextInt(100));
-		}
+		System.out.println(fact(5));
+	}
+
+	
+	public static int fact(int n) {
+		if (n == 1)
+			return 1;
+		else
+			return (n * fact(n - 1));
 
 	}
 }

@@ -1,4 +1,4 @@
-package org.ImpPrograms;
+package com.qa.practice;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

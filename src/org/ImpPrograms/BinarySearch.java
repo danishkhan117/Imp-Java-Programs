@@ -1,10 +1,9 @@
 package org.ImpPrograms;
 
 import java.util.Scanner;
-class BinarySearch
-{
-	public static void main(String args[])
-	{
+
+class BinarySearch {
+	public static void main(String args[]) {
 		int c, first, last, middle, n, search, array[];
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter number of elements");
@@ -17,22 +16,18 @@ class BinarySearch
 		search = in.nextInt();
 		first = 0;
 		last = n - 1;
-		middle = (first + last)/2;
-		while( first <= last )
-		{
-			if ( array[middle] < search )
+		middle = (first + last) / 2;
+		while (first <= last) {
+			if (array[middle] < search)
 				first = middle + 1;
-			else if ( array[middle] == search )
-			{
-				System.out.println(search + " found at location " + (middle + 1) +
-						".");
+			else if (array[middle] == search) {
+				System.out.println(search + " found at location " + (middle + 1) + ".");
 				break;
-			}
-			else
+			} else
 				last = middle - 1;
-			middle = (first + last)/2;
+			middle = (first + last) / 2;
 		}
-		if ( first > last )
+		if (first > last)
 			System.out.println(search + " is not present in the list.\n");
 	}
 }
