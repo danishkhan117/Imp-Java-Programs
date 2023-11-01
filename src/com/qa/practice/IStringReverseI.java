@@ -7,6 +7,7 @@ public class IStringReverseI {
 
 	public static void main(String[] args) {
 		String str = "abc xyz";
+		System.out.println(str.lastIndexOf(""));
 		// cba zyx
 
 		String strAr[] = str.split(" ");

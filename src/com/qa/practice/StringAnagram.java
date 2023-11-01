@@ -19,7 +19,7 @@ public class StringAnagram {
 
 		
 		System.out.println(Arrays.equals(s1Arr, s2Arr));
-		System.out.println(s1Arr.equals(s2Arr));
+		//System.out.println(s1Arr.equals(s2Arr));
 		
 		
 		if (Arrays.equals(s1Arr, s2Arr)) {

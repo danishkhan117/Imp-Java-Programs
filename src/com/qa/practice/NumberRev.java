@@ -3,7 +3,7 @@ package com.qa.practice;
 public class NumberRev {
 
 	public static void main(String[] args) {
-		int num = 12345;
+		int num = 123;
 		int rem, sum = 0;
 		// 123
 		while (num > 0) {
