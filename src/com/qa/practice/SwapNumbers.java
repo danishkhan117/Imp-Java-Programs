@@ -16,5 +16,4 @@ public class SwapNumbers {
 		y = temp;
 		System.out.println("After Swapping\nx = " + x + "\ny = " + y);
 	}
-
 }

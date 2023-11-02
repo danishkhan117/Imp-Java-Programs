@@ -9,7 +9,7 @@ public class StringRev {
 			System.out.print(s.charAt(i));
 		}
 		System.out.println();
-		//2nd approach
+		// 2nd approach
 		StringBuffer sb = new StringBuffer(s);
 		System.out.println(sb.reverse());
 	}

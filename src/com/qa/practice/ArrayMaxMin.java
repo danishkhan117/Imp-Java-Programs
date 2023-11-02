@@ -11,12 +11,12 @@ public class ArrayMaxMin {
 		/*
 		 * int arr[] = { 1, 423, 6, 46, 6, 34, 23, 13, 53, 4 };
 		 * 
-		 * // Implemented inbuilt function to sort array Arrays.sort(arr);
+		 * // Implemented inbuilt function to sort array 
+		 * Arrays.sort(arr);
 		 * 
 		 * //after sorting the value at 0th position will minimum and // nth position
 		 * will be maximum System.out.println("min-" + arr[0] + " max-" +
 		 * arr[arr.length- 1]);
-		 * 
 		 * }
 		 */
 		// Array iteration
